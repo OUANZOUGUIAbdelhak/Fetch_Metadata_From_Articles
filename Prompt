@@ -1,0 +1,92 @@
+Veuillez lire le document ci-dessous et extraire les informations demandées. Formatez les réponses clairement pour chaque type de verre. Utilisez le format suivant pour chaque type de verre :
+
+---
+
+**Document :**
+{Document}
+
+---
+
+**Informations demandées :**
+
+1. **Type du document :** [Type clair, sans texte additionnel]
+2. **Titre du document :** [Titre clair, sans texte additionnel]
+3. **Référence :** [Référence claire, sans texte additionnel]
+4. **Premier Auteur :** [Nom complet clair, sans texte additionnel]
+5. **Nombre de types de verres :** [Nombre]
+
+**Pour les trois premiers types de verre :**
+
+6. **Verre_type1 :** [Description ou identifiant du type de verre]
+7. **SiO₂(Verre_type1) :** [Valeur numérique]
+8. **B₂O₃(Verre_type1) :** [Valeur numérique]
+9. **Na₂O(Verre_type1) :** [Valeur numérique]
+10. **Al₂O₃(Verre_type1) :** [Valeur numérique]
+11. **Fines(Verre_type1) :** [Valeur numérique]
+12. **Densité(Verre_type1) :** [Valeur numérique]
+13. **Homogénéité(Verre_type1) :** [Commentaire]
+14. **% B(IV)(Verre_type1) :** [Valeur numérique]
+15. **Irradié(Verre_type1) :** [O/N]
+16. **Caractéristiques si irradié(Verre_type1) :** [Commentaire]
+17. **Température(Verre_type1) :** [Valeur numérique]
+18. **Statique/dynamique(Verre_type1) :** [Commentaire]
+19. **Plage granulo si poudre(Verre_type1) :** [Valeur numérique]
+20. **Surface spécifique géométrique si poudre(Verre_type1) :** [Valeur numérique]
+21. **Surface spécifique BET si poudre(Verre_type1) :** [Valeur numérique]
+22. **Qualité polissage si monolithe(Verre_type1) :** [Commentaire]
+23. **Masse verre(Verre_type1) :** [Valeur numérique]
+24. **S(verre)(Verre_type1) :** [Valeur numérique]
+25. **V(solution)(Verre_type1) :** [Valeur numérique]
+26. **Débit solution(Verre_type1) :** [Valeur numérique]
+27. **pH initial (T amb)(Verre_type1) :** [Valeur numérique]
+28. **pH initial (T essai)(Verre_type1) :** [Valeur numérique]
+29. **Compo solution(Verre_type1) :** [Commentaire]
+30. **Durée expérience(Verre_type1) :** [Valeur numérique]
+31. **pH final (T amb)(Verre_type1) :** [Valeur numérique]
+32. **pH final (T essai)(Verre_type1) :** [Valeur numérique]
+33. **Normalisation vitesse (Spm ou SBET)(Verre_type1) :** [Valeur numérique]
+34. **V₀(Si)(Verre_type1) :** [Valeur numérique]
+35. **r²(Si)(Verre_type1) :** [Valeur numérique]
+36. **Ordonnée origine(Verre_type1) :** [Valeur numérique]
+37. **V₀(B)(Verre_type1) :** [Valeur numérique]
+38. **Ordonnée origine(Verre_type1) :** [Valeur numérique]
+39. **V₀(Na)(Verre_type1) :** [Valeur numérique]
+40. **r²(Na)(Verre_type1) :** [Valeur numérique]
+41. **Ordonnée origine(Verre_type1) :** [Valeur numérique]
+42. **V₀(ΔM)(Verre_type1) :** [Valeur numérique]
+43. **Congruence(Verre_type1) :** [Commentaire]
+
+**Répétez les étapes ci-dessus pour Verre_type2 et Verre_type3 en incrémentant les numéros.**
+
+---
+
+**Format attendu :**
+
+1. Type du document : [Type]
+2. Titre du document : [Titre]
+3. Référence : [Référence]
+4. Premier Auteur : [Premier Auteur]
+5. Nombre de types de verres : [Nombre]
+6. Verre_type1 : [Type1]
+7. SiO₂(Verre_type1) : [Valeur]
+8. B₂O₃(Verre_type1) : [Valeur]
+9. Na₂O(Verre_type1) : [Valeur]
+10. Al₂O₃(Verre_type1) : [Valeur]
+11. Fines(Verre_type1) : [Valeur]
+12. Densité(Verre_type1) : [Valeur]
+...
+43. Congruence(Verre_type1) : [Commentaire]
+44. Verre_type2 : [Type2]
+45. SiO₂(Verre_type2) : [Valeur]
+46. B₂O₃(Verre_type2) : [Valeur]
+...
+87. Congruence(Verre_type2) : [Commentaire]
+88. Verre_type3 : [Type3]
+89. SiO₂(Verre_type3) : [Valeur]
+90. B₂O₃(Verre_type3) : [Valeur]
+...
+131. Congruence(Verre_type3) : [Commentaire]
+
+---
+Il faut absolument donner toutes les valeurs, et ne demander pas à l'utilisateur de le faire à ta place et également, n'ajouter pas de commentaire à la fin.
+Si une des informations est indisponible dans le document, indiquez "Non disponible".
